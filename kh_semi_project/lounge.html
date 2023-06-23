@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            overflow: hidden;
+            width: 300px;
+            /* container의 너비 조정 */
+        }
+
+        .btn {
+            background-color: #ccc;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .content {
+            width: 300px;
+            /* 페이지 내용의 너비 조정 */
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover+.content {
+            transform: translateX(-100%);
+            /* 왼쪽으로 이동 */
+        }
+        .feedcard {
+            width:274x;
+			height:274px;
+            border-radius: 16px;
+			margin:30px;			
+			border:1px solid #000; /* @@@@@나중에 지울것 */
+        }
+        .feedcard image{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <!--TODO, 호준님의 Header-->
+    </header>
+    <div class="container">
+        <button class="btn">모임후기</button>
+        <div class="content">
+            <div class="feedcard" href="/resources/images/costco.png">
+                Hello
+            </div>
+        </div>
+        <div class="content">
+            <div class="feedcard" href="/resources/images/costco.png">
+                Hello
+            </div>
+        </div>
+        <div class="content">
+            <div class="feedcard" href="/resources/images/costco.png">
+                Hello
+            </div>
+        </div>
+        <div class="content">
+            <div class="feedcard" href="/resources/images/costco.png">
+                Hello
+            </div>
+        </div>
+        <div class="content">
+            <div class="feedcard" href="/resources/images/costco.png">
+                Hello
+            </div>
+        </div>
+        <div class="content">
+            <div class="feedcard" href="/resources/images/costco.png">
+                Hello
+            </div>
+        </div>
+        <div class="content">
+            <div class="feedcard" href="/resources/images/costco.png">
+                Hello
+            </div>
+        </div>
+        <div class="content">
+            <div class="feedcard" href="/resources/images/costco.png">
+                Hello
+            </div>
+        </div>
+      </div>
+    <footer>
+        <!--TODO, 호준님의 Footer--> 
+    </footer>
+</body>
+
+</html>
